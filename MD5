@@ -1,0 +1,10 @@
+ccbe873208eb11a3b5b858b4b6551969 *DESCRIPTION
+df390c53434517b304ac5db487184641 *NAMESPACE
+e75d285bde42893ab364e06e4650a5af *R/install_py_stuff.R
+0490565b20ed32468454044571120e3c *R/utilities.R
+8e01d223c51c6d4817907bbd18b3c085 *inst/NEWS.Rd
+b7976aabe662f8b452e07237ac226e0f *inst/python/MAF.py
+71770cb385f73dc29b8acd67a3b52f28 *man/control_py_env.Rd
+722f570d9c0d4dfe93c0ca2cc7132faa *man/mafR.Rd
+b371d4d7453ff97073653801d932e8ba *man/r_to_torch.Rd
+16cadd6fba88b5abf998db4dc2fb8b84 *man/utilities.Rd
