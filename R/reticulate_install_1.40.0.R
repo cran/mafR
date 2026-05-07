@@ -1,5 +1,5 @@
 # For comments on wsl see infos in my langages/wsl/ subdir
-.install_py_stuff <- function(cuda=FALSE, pip=TRUE, test_cuda=cuda,
+.reticulate_install_1.40.0 <- function(cuda=FALSE, pip=TRUE, test_cuda=cuda,
                               test_dynamo=TRUE) {
   reticulate::install_miniconda() # should be able to control the path?
   reticulate::py_install(packages="scikit-learn", pip=pip) # to import *sklearn*
@@ -15,7 +15,7 @@
         paste0("pytorch-cuda","=","12.1")),
       channel=c("pytorch","nvidia"),
       conda = "auto",
-      pip = FALSE)
+      pip = FALSE) # this may be slow, be patient.
   }
   if (test_cuda) {
     Itorch <- reticulate::import("torch")
